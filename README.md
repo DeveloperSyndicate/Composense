@@ -48,10 +48,10 @@ To add Composense to your Android project, follow these steps:
 In your `app/build.gradle` file, under the `dependencies` block, add the following dependency:
 
 ```groovy
-    implementation 'com.example:composense:x.y.z' // Replace with latest version
+    implementation 'io.github.developersyndicate:composense:x.y.z' // Replace with latest version
 ```
 ```kotlin
-    implementation("com.example:composense:x.y.z")  // Replace with latest version
+    implementation("io.github.developersyndicate:composense:x.y.z")  // Replace with latest version
 ```
 For **Fingerprint** and **Face Authentication** features, you must also add the `androidx.biometric` library. Add this dependency:
 
