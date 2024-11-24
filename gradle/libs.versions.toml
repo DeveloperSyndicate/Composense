@@ -1,12 +1,14 @@
 [versions]
-agp = "8.7.1"
+agp = "8.7.2"
 biometricKtx = "1.4.0-alpha02"
-foundation = "1.7.4"
+foundation = "1.7.5"
 kotlin = "2.0.20"
-coreKtx = "1.13.1"
+coreKtx = "1.15.0"
 espressoCore = "3.6.1"
-lifecycleRuntimeKtx = "2.8.6"
-composeBom = "2024.10.00"
+lifecycleRuntimeKtx = "2.8.7"
+composeBom = "2024.11.00"
+maven = "0.30.0"
+gradleup = "0.0.7"
 
 
 [libraries]
@@ -28,5 +30,5 @@ android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 android-library = { id = "com.android.library", version.ref = "agp" }
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
-
-
+maven-publish = { id = "com.vanniktech.maven.publish", version.ref = "maven" }
+gradle-up = { id = "com.gradleup.nmcp", version.ref = "gradleup" }
